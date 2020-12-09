@@ -8,23 +8,22 @@ function random(){
   function pin(){
      var amt = prompt("Enter amount");
      if(amt === "" || amt <= 0){
-         alert("Thank you for banking with us");
+         alert("Thank you for banking with us")
      } else{
 
      
  var x = prompt("Enter your pin");
  var y = prompt("Confirm pin");
-
+ alert("Transaction successful");
+     }
  while(x !== y ){
      alert("Entry unsuccessful"); 
      var x = prompt("Enter your pin");
  var y = prompt("Confirm pin");
- }
- alert("Transaction successful"); 
+ } 
   
   
   }
-}
 
   function username(){
     if(document.getElementById("script").value.length === 0 ){
